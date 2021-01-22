@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nameBox.css">
+</head>
+<body>
+    <div class="nameBox">
+        <h1>Hello,</h1>
+        <form class="nameForm group">      
+            <input type="text" required>
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Name</label>
+        </form>
+        <p id="local-name"></p>
+    </div>
+
+
+    <div id="contents" class="contentsGrid">
+        <div class="clockBox">
+            <span>00</span><span style="display:inline-block; width: 15px;">:</span><span>00</span>
+        </div>
+        <div id = "contentsBox01">
+            <div class="weatherBox">
+                <div class="weatherImgTemp"> <!-- Weather -->
+                    <img src="" alt="">
+    
+                    <span style="font-size: 20px;"></span> <!-- temperature-->
+                </div>
+                <div class="weatherConditionBox">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    
+        <div id="contentsBox02" style="height : 300px">
+            <!-- blank -->
+        </div>
+
+        <div id="contentsBox03">
+            <div>
+                <!-- Google calender -->
+            </div>
+            <div>
+                <!-- MS todo -->
+            </div>
+        </div>
+    </div>
+   
+    
+    <script src="js-name.js"></script>
+    <script src="weather.js"></script>
+    <script src="clock.js"></script>
+    <script src="background.js"></script>
+    <!-- <script src="GoogleCalender.js"></script> -->
+</body>
+</html>
+<!-- 26개의 weather code -->
