@@ -15,7 +15,7 @@ function getWeather(lat, lon){
         const weather = json.weather[0].main;
         const temperature = json.main.temp;
         const imgCode = json.weather[0].icon;
-        const imgURL = `http://openweathermap.org/img/wn/${imgCode}@2x.png` //@4x > biggest size
+        const imgURL = `https://openweathermap.org/img/wn/${imgCode}@2x.png` //@4x > biggest size
         
         fetch(imgURL).then((response2)=>response2.json).then(function(json2){
             weatherBox.children[0].children[0].src = imgURL; // img
