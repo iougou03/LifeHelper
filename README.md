@@ -5,7 +5,7 @@ The lecture that I learned is here <a href="https://nomadcoders.co/javascript-fo
 
 * screen shot
   
-<img src="./screenShot.PNG">
+![screenShot](./screenShot.PNG)
 
 JS -> vanila JS
 
