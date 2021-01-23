@@ -96,7 +96,7 @@ h1{
     transition-duration: 1s;
     background-color: rgb(0, 0, 0, .6);
     /* display: grid; */
-    grid-template-rows: auto;
+    grid-template-rows: 100px 300px 1fr;
 }
 .weatherConditionBox{
     color:white;
@@ -106,4 +106,22 @@ h1{
 .clockBox{
     font-size: 50px;
     margin: auto;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+    font-size: 20px;
+    border-spacing: 20px;
+    border-collapse: separate;
+}
+button{
+    margin-left: 10px;
+    border:none;
+    background: none;
+    padding: 0;
+}
+tr > input{
+    width:auto;
+    margin-right: 5px;
 }

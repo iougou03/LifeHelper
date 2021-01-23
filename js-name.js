@@ -18,7 +18,7 @@ function printName(){
 
 function showContents(tag){
     document.querySelector('#contents').style.display = "grid";
-    tag.style.cssText = "width: 100%; display: grid; grid-template-columns: 75% 25%; align-content:stretch"; 
+    tag.style.cssText = "width: 100%; display: grid; grid-template-columns: 1fr 350px; align-content:stretch"; 
 }
 
 function handleSubmit(event) {
