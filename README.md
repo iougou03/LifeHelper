@@ -9,8 +9,11 @@ The lecture that I learned is here <a href="https://nomadcoders.co/javascript-fo
 
 JS -> vanila JS
 
-To-do list -> Microsoft To-Do API
-Weather info -> climacell
-Calender -> Google API
+
+To-do list -> Microsoft To-Do API > <u>But failed cause with OAuth 2.0</u>
+
+Weather info -> openWeather API
+
+Calender -> Google API > <u>But failed cause with OAuth 2.0</u>
 
 URL -> https://iougou03.github.io/LifeHelper.github.io/.
