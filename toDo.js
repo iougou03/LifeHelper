@@ -11,6 +11,7 @@ function handleChange(event){
     //check with console.dir
     const id = event.currentTarget.parentNode.id;
     const getTr = document.getElementById(`${id}`);
+    console.log(getTr);
     if (event.target.checked){
         getTr.style.textDecorationLine="line-through";
         getTr.style.color="gray";
@@ -58,6 +59,7 @@ function saveToDo(){
 function addToDo(toDoText){
     TODOLIST.push(toDoText);
     saveToDo();
+    idNum+=1;
     printToDo(toDoText);
 }
 function handleSubmit(event){
@@ -72,17 +74,20 @@ function askToDo(){
     toDoForm.addEventListener("submit",handleSubmit);
 }
 
-function init(){
+function paint(){
     let toDoList = localStorage.getItem(TODO);
 
     if(toDoList !==null){
         toDoList = JSON.parse(toDoList);
         TODOLIST = toDoList;
         toDoList.forEach(element => {
-            printToDo(element);
             idNum+=1;
+            printToDo(element);
         });
     }
+}
+function init(){
+    paint();
     askToDo();
         
 }
