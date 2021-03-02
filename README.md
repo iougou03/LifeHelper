@@ -1,6 +1,7 @@
 # LifeHelper
 
 This side project is for Practice
+
 The lecture that I learned is here <a href="https://nomadcoders.co/javascript-for-beginners/lobby">NomadCoder</a>
 
 * screen shot
